@@ -7,7 +7,7 @@ import { Link } from 'react-router';
 
 const NavBar = () => {
     return (
-        <div className='bg-gray-200/80 p-5 w-full flex justify-between items-center shadow-lg shadow-gray-400/50 rounded-lg'>
+        <div className='bg-[#110703] p-5 w-full flex justify-between items-center'>
 
             <div className='navStart'>
                 <img src="../../src/assets/imgs/logo.png" className='hidden lg:block  w-30 h-10 object-cover' alt="" />
@@ -19,18 +19,18 @@ const NavBar = () => {
                 <img src="../../src/assets/imgs/logo.png" className='lg:hidden  w-20 md:w-40' alt="" />
                 {/* menu/listitems */}
                 <ul className='hidden lg:flex gap-6'>
-                    <Link to="/"><li className=' text-base text-gray-500 hover:text-gray-700  duration-500 great-vibes '>Home</li></Link>
-                    <Link to="/"><li className=' text-base text-gray-500 hover:text-gray-700  duration-500 great-vibes '>About us</li></Link>
-                    <Link to="/"><li className=' text-base text-gray-500 hover:text-gray-700 duration-500 great-vibes '>Our Products</li></Link>
-                    <Link to="/"><li className=' text-base text-gray-500 hover:text-gray-700  duration-500 great-vibes '>Contact</li></Link>
+                    <Link to="/"><li className=' text-base text-gray-500 hover:text-[#D4A373]  duration-500 great-vibes '>Home</li></Link>
+                    <Link to="/"><li className=' text-base text-gray-500 hover:text-[#D4A373]  duration-500 great-vibes '>About us</li></Link>
+                    <Link to="/"><li className=' text-base text-gray-500 hover:text-[#D4A373] duration-500 great-vibes '>Our Products</li></Link>
+                    <Link to="/"><li className=' text-base text-gray-500 hover:text-[#D4A373]  duration-500 great-vibes '>Contact</li></Link>
                 </ul>
             </div>
             <div className='navEnd flex items-center gap-3'>
-                <button className='btn-ghost text-amber-950 text-lg md:text-2xl'> <CiSearch /></button>
-                <button className='btn-ghost text-amber-950 text-lg md:text-2xl indicator'> 
+                <button className='btn-ghost text-amber-950 hover:text-[#D4A373] duration-500 text-lg md:text-2xl'> <CiSearch /></button>
+                <button className='btn-ghost text-amber-950 hover:text-[#D4A373] duration-500 text-lg md:text-2xl indicator'> 
                 <CiShoppingCart /> 
-                <div className='badge bg-amber-50 text-amber-950 border border-amber-950 badge-xs  indicator-item'>0</div></button>
-                <button className='btn-ghost text-amber-950 text-lg md:text-2xl'> <LiaUserFriendsSolid /></button>
+                <div className='badge bg-amber-50 text-amber-950 hover:text-[#D4A373] border border-amber-950 badge-xs  indicator-item'>0</div></button>
+                <button className='btn-ghost text-amber-950 hover:text-[#D4A373] duration-500 text-lg md:text-2xl'> <LiaUserFriendsSolid /></button>
             </div>
         </div>
     );
