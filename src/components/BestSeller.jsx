@@ -5,7 +5,7 @@ const BestSeller = () => {
     return (
         <div className='my-10 p-5 border-r-2 border-l-2 border-amber-200 shadow-lg shadow-amber-50/10'>
             <h3 className='text-4xl font-bold text-center bg-amber-950/50 p-5'>Our Best Selling Product</h3>
-            <div className='flex justify-center gap-10 items-center my-5'>
+            <div className='flex flex-col lg:flex-row justify-center gap-10 items-center my-5'>
                 {/* product list */}
                 <div className='col-span-1 flex flex-col gap-10 lg:gap-20'>
                     <div className='flex gap-5 flex-row-reverse items-center'>
